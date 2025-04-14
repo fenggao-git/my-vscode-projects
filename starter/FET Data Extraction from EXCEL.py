@@ -27,4 +27,3 @@ for file in excel_files:
 # Save to new Excel file
 combined_df.to_excel(os.path.join(folder_path, 'combined_first_columns.xlsx'), index=False)
 print("✅ All files combined successfully. Done!")
-print("nihao")
