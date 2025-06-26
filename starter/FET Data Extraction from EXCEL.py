@@ -3,7 +3,7 @@ import os
 from glob import glob
 
 # Change this to your folder path
-folder_path = '/Users/edison/Downloads/0616-25'  # e.g., r'C:\Users\YourName\Documents\ExcelFiles'
+folder_path = r"C:\Users\chris\OneDrive\Desktop\0623_25"  # e.g., r'C:\Users\YourName\Documents\ExcelFiles'
 
 # Get list of all Excel files in the folder (can filter by .xlsx or .xls)
 excel_files = glob(os.path.join(folder_path, '*.xlsx'))
